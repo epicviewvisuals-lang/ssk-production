@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SSK Production | LED Screen Rental</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#020817;color:#fff}
+nav{position:sticky;top:0;z-index:10;background:rgba(2,8,23,.92);backdrop-filter:blur(12px);display:flex;align-items:center;justify-content:space-between;padding:12px 6%;border-bottom:1px solid #1d5cff}
+nav img{height:48px;width:70px;object-fit:cover;border-radius:10px}
+nav .links{display:flex;gap:12px;align-items:center}
+a{color:inherit;text-decoration:none}
+.btn{display:inline-block;padding:12px 18px;border-radius:999px;background:#ffd21a;color:#07101f;font-weight:800}
+.hero{min-height:88vh;display:grid;place-items:center;padding:30px 5%;background:
+radial-gradient(circle at 20% 20%,rgba(0,170,255,.35),transparent 35%),
+radial-gradient(circle at 80% 40%,rgba(255,0,200,.25),transparent 35%),#020817}
+.hero-inner{max-width:1250px;width:100%;display:grid;grid-template-columns:1fr 1.1fr;gap:35px;align-items:center}
+.hero h1{font-size:clamp(42px,7vw,90px);margin:0;line-height:.9;text-transform:uppercase}
+.hero h1 span{color:#ffd21a}
+.hero p{font-size:20px;color:#d7e5ff;line-height:1.6}
+.poster{width:100%;max-height:75vh;object-fit:contain;border-radius:24px;box-shadow:0 0 55px rgba(0,119,255,.55);border:1px solid #2488ff}
+.cards{max-width:1200px;margin:auto;padding:65px 5%}
+.cards h2{font-size:38px;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{padding:24px;border:1px solid #1d5cff;border-radius:18px;background:linear-gradient(145deg,#071a40,#030b20);box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.card h3{margin:0 0 8px;color:#ffd21a}
+.events{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.event{overflow:hidden;border-radius:16px;border:1px solid #208cff;background:#061536}
+.event img{width:100%;display:block;aspect-ratio:1/1.1;object-fit:cover}
+.event b{display:block;padding:12px}
+.contact{text-align:center;background:linear-gradient(135deg,#03143a,#07001d);padding:70px 5%}
+.contact h2{font-size:44px;margin:0 0 15px}
+.phone{font-size:30px;font-weight:900;color:#ffd21a;margin:20px}
+footer{text-align:center;padding:25px;color:#9db4d9}
+@media(max-width:850px){
+.hero-inner{grid-template-columns:1fr}
+.grid{grid-template-columns:1fr 1fr}
+.events{grid-template-columns:repeat(2,1fr)}
+nav .links a:not(.btn){display:none}
+}
+@media(max-width:500px){
+.grid{grid-template-columns:1fr}
+.hero{padding-top:20px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <img src="ssk-logo.jpg" alt="SSK Production logo">
+  <div class="links">
+    <a href="https://www.instagram.com/epic_view_visuals?stkn=dTJ1aWZmbHhxZ2pm" target="_blank">Instagram</a>
+    <span style="color:#d7e5ff;margin-right:10px">📍 Mumbai</span><a class="btn" href="https://wa.me/918850845742?text=Hello%20SSK%20Production%2C%20I%20want%20to%20book%20an%20LED%20screen." target="_blank">Book Now</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <h1>SSK <span>Production</span></h1>
+      <p><b>LED Screen Rental Service</b><br>
+      Your Event • Our Screen • Unlimited Impact!</p>
+      <a class="btn" href="tel:+918850845742">📞 Call 88508 45742</a>
+      &nbsp;
+      <a class="btn" href="https://www.instagram.com/epic_view_visuals?stkn=dTJ1aWZmbHhxZ2pm" target="_blank">📸 Instagram</a>
+    </div>
+    <img class="poster" src="ssk-poster.jpg" alt="SSK Production LED Screen services">
+  </div>
+</section>
+
+<section class="cards">
+  <h2>Why Choose SSK?</h2>
+  <div class="grid">
+    <div class="card"><h3>💎 Premium Quality</h3><p>Professional LED screen setup for events.</p></div>
+    <div class="card"><h3>⚙️ Advanced Technology</h3><p>Clean visuals and reliable event display.</p></div>
+    <div class="card"><h3>☀️ Brighter Display</h3><p>High-impact visuals for indoor & outdoor events.</p></div>
+    <div class="card"><h3>🛡️ Reliable Support</h3><p>Event-focused setup and on-site support.</p></div>
+  </div>
+</section>
+
+<section class="cards">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card"><h3>Indoor & Outdoor LED Screens</h3><p>LED walls for different event sizes.</p></div>
+    <div class="card"><h3>Live Event Display</h3><p>Live visuals, programs and stage content.</p></div>
+    <div class="card"><h3>Stage & Event Setup</h3><p>Professional screen placement and setup.</p></div>
+    <div class="card"><h3>Crystal Clear HD Display</h3><p>Sharp, bright visuals for your audience.</p></div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>BOOK YOUR LED SCREEN TODAY!</h2>
+  <div class="phone">📞 88508 45742</div><p style="font-size:20px">📍 Mumbai, Maharashtra</p>
+  <a class="btn" href="https://wa.me/918850845742?text=Hello%20SSK%20Production%2C%20I%20want%20to%20book%20an%20LED%20screen." target="_blank">WhatsApp Booking</a>
+  <a class="btn" href="https://www.instagram.com/epic_view_visuals?stkn=dTJ1aWZmbHhxZ2pm" target="_blank">Follow on Instagram</a>
+</section>
+
+<footer>© 2026 SSK Production • LED Screen Rental Service</footer>
+</body>
+</html>
